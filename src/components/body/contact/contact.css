@@ -1,0 +1,50 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.contact-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.contact-left{
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.download{
+    background-color:aquamarine;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 24px;
+    
+}
+.download a{
+    color: black;
+}
+
+@media only screen and (max-width: 720px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        max-width: 100%;
+        font-size: 17px;
+    }
+    .download{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}

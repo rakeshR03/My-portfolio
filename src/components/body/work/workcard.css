@@ -1,0 +1,40 @@
+.workcard{
+    padding: 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.work-logo{
+    height: 150px;
+    margin: 5px 15px;
+}
+
+.work-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 70%;
+}
+
+.work-date{
+    color: grey;
+
+}
+
+.work-des{
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 720px){
+    .workcard{
+        width: 100%;
+    }
+}
