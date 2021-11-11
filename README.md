@@ -3,14 +3,14 @@ This is a portfolio website that describes my work.
 Created using html,css,React.
 
 Below are the section that are available on this website:
-# About me
+## About me
   -> tells about me.
-# Project
+## Project
   -> projects that are created by me.
-# Work Experience
+## Work Experience
   -> my previous work experiences.
-# Skill
+## Skill
   -> languages that I know.
-# Contact
+## Contact
   -> social platforms via which you can contact me.
 
