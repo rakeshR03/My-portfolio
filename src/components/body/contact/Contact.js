@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import Separator from '../common/Separator'
 import Socialmedia from '../socialmedia/Socialmedia'
-import cv from '../../../Assets/updated_CV.pdf'
+import cv from '../../../Assets/Resume.pdf'
 import CloudDownload from '../../../../node_modules/@mui/icons-material/CloudDownload';
 
 function Contact() {
